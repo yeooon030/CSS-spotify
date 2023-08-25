@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  font-family: spotify-circular, Arial, Helvetica, sans-serif ;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #1ed760;
+}
+nav{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main{
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer{
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo{
+  width: 132px;
+  height: 44.99px;
+}
+.nav-item{
+  text-decoration: none;
+  font-weight: 700;
+  padding: 28px 17px;
+}
+
+.headline{
+  font-weight: 900;
+  font-size: 156px;
+  color: #1ed760;
+  position: relative;
+  left: 200px;
+}
+.headline-first{
+  position: relative;
+  left: -2.5em
+}
+.sub-headline{
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.button-style{
+  font-style: none;
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+  font-size: 16px;
+}
+.button-style:hover{
+  transform: scale(110%);
+}
+
+.footer-container{
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.first-box{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-box{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.sub-title{
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.footer-menu-item{
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.icon-box{
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-line{
+  color: #919496;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+.second-line{
+  columns: #919496;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.second-line-item{
+  margin-right: 24px;
+  color: #919496;
+}
